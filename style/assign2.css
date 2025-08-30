@@ -255,3 +255,76 @@ text-align: center;
 .latest-deal-img-banner-container h3{
   margin: 0px;
 }
+/* newslater related styles */
+.newslater-container{
+  background-image: url(../assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 533px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.newslater-container h3{
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+.subscribe-btn{
+  display: flex;
+  width: 830px;
+}
+.subscribe-btn textarea{
+  width: 70%;
+  border: none;
+  height: 50px;
+  padding-left: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  
+}
+
+
+.subscribe-btn button{
+  width: 30%;
+  background-color: #e95a08;
+  color: white;
+  border: none;
+  
+}
+
+/* footer section related styles */
+.footer-section{
+  margin: 50px 160px;
+  display: flex;
+  gap: 110px;
+  justify-content: space-evenly;
+}
+.logo-text p{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.375rem;
+}
+
+.footer-section .menu-1 ul li{
+  margin-bottom: 26px;
+  list-style: none;
+  color: #6B7280;
+  white-space:nowrap ;
+}
+.footer-section .menu-2 ul li{
+   margin-bottom: 26px;
+  list-style: none;
+  color: #6B7280;
+  white-space:nowrap ;
+}
+.icn{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 24px;
+  
+ 
+}
+.icn img{
+  height: 36px;
+}
+
