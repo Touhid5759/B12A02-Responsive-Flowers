@@ -62,3 +62,27 @@ body {
   font-size: 1rem;
   font-weight: 400;
 }
+/* hero banner related styles */
+.hero-banner-section {
+  margin: 120px 150px;
+}
+
+.hero-banner-info-container {
+  align-items: end;
+}
+.fresh-flowers,
+.always {
+  font-weight: bold;
+  font-size: 4rem;
+}
+.hero-banner-description {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.375rem;
+}
+.hero-banner-img-container {
+  align-items: end;
+}
+.hero-banner-description {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
