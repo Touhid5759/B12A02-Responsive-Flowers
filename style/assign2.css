@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+.noto-serif-noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+body {
+  background-color: #f5f8ff;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+/* shared styles */
+.primary-color {
+  color: #e95a08;
+}
+.display-flex {
+  display: flex;
+}
+.space-between {
+  justify-content: space-between;
+}
+
+/* navbar related styles */
+.navbar {
+  margin: 10px 150px;
+}
+.menu-cart-container {
+  gap: 48px;
+}
+.menu ul {
+  gap: 48px;
+}
+.menu-item {
+  align-items: center;
+}
+#home a {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #252432;
+}
+
+#shop a,
+#about-us a {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #8987a1;
+}
+
+.menu ul li {
+  list-style: none;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+.cart {
+  align-items: center;
+}
+.cart p {
+  font-size: 1rem;
+  font-weight: 400;
+}
