@@ -321,10 +321,105 @@ text-align: center;
   display: grid;
   grid-template-columns: repeat(4,1fr);
   gap: 24px;
-  
- 
 }
 .icn img{
   height: 36px;
 }
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    .products-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .products-section,.prods-con-description{
+        margin: 0 auto;
+    }
+    
+  .menu {
+    display: none;
+  }
+  .navbar {
+    margin: 13px 16px 28px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hero-banner-container {
+    flex-direction: column-reverse;
+  }
+  .hero-banner-section{
+    margin: 0;
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
+  }
+  .hero-banner-info-container{
+    margin-top: 1.75rem;
+    margin-bottom: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: calc(100% - 20px);
+  }
+  .fresh-flowers,
+.always {
+  font-size: 1.5rem;
+}
+  .hero-banner-img-container{
+    width: 100%;
+    align-items: center;
+  }
+  .hero-banner-img-container img{
+    width: 100%;
+    margin: 0;
+  }
+  .promo-banner-container{
+    flex-direction: column;
+
+  }
+  .trusted-badge{
+    display: none;
+  }
+  .promo-banner-section,.promo-title-desc-container{
+    margin: 41px 16px;
+  }
+  .latest-deal-img-banner-container{
+    grid-template-columns: repeat(1,1fr);
+    
+  }
+  .latest-deal-section{
+    margin: 0 auto;
+  }
+  .zabo-plant,.ana-plant,.bloom-plant{
+    width: 100%;
+    background-size: cover;
+    margin: 0px 10px;
+    height: 185px;
+  }
+  #zabo{
+    width: 95%; 
+    height: 197px;
+    background-size: cover;
+    margin: 0px 10px;
+    font-size: 1.375rem;
+    height: 185px;
+    
+  }
+  .newslater-container{
+    width: 100%;
+    height: 276px;
+    margin-top: 120px;
+  }
+  .subscribe-btn{
+    width: 321px;
+  }
+  .footer-section{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+  .footer-section{
+    margin-left: 0px;
+    margin-right: 10px;
+    gap: 0px;
+  }
+}
+
 
